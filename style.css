@@ -34,6 +34,11 @@ body {
   border-width: medium;
 }
 
+.show-modal:hover {
+  border: 1px darkgray;
+  background-color: darkseagreen;
+}
+
 .close-modal {
   position: absolute;
   top: 1.2rem;

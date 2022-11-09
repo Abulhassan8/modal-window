@@ -70,8 +70,13 @@ for(let i = 0; i < btnsOpenModal.length; i++){
 
 btnCloseModal.addEventListener('click', hideClass);
 overlay.addEventListener('click', hideClass);
+
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
+  const isKeyEscape = e.key === 'Escape';
+  const isModalClosed = modal.classList.contains('hidden');
+  console.log(isKeyEscape, isModalClosed);
+
+  if(isKeyEscape && !isModalClosed){
     hideClass();
-  }
-})
+  };
+});
