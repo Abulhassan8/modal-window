@@ -1,7 +1,0 @@
-{
-  "name": "modal-window",
-  "version": "0.0.1",
-  "dependencies": {
-    "require": "^2.4.20"
-  }
-}
