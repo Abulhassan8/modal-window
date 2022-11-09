@@ -8,19 +8,17 @@
     <title>Modal Window</title>
   </head>
   <body>
-    <button class="modal-button">Show Modal 1</button>
-    <button class="modal-button">Show Modal 2</button>
-    <button class="modal-button">Show Modal 3</button>
+    <button class="show-modal">Docker</button>
+    <button class="show-modal">Git</button>
+    <button class="show-modal">GoLang</button>
 
-    <div class="modal-hidden">&times;
-    <h1>Docker</h1>
-    <p>
-      Docker, a subset of the Moby project, is a software framework for building, running, and managing containers on servers and the cloud. The term "docker" may refer to either the tools (the commands and a daemon) or to the Dockerfile file format.
-
-It used to be that when you wanted to run a web application, you bought a server, installed Linux, set up a LAMP stack, and ran the app. If your app got popular, you practiced good load balancing by setting up a second server to ensure the application wouldn't crash from too much traffic.
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+    <h1 class="heading"></h1>
+    <p class="info">
     </p>
   </div>
-  <div class="overlay-hidden"></div>
+  <div class="overlay hidden"></div>
   <script src="script.js"></script>
   </body>
 </html>
